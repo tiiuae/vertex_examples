@@ -24,6 +24,8 @@ pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
+inputs/*.csv
+inputs/*.jsonl
 *.egg
 MANIFEST
 
@@ -127,3 +129,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data and model files
+*.bst
+*.csv
+*.npz
+*.joblib
+tb_logs/

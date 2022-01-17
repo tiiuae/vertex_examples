@@ -24,8 +24,6 @@ pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
-inputs/*.csv
-inputs/*.jsonl
 *.egg
 MANIFEST
 
@@ -134,5 +132,6 @@ dmypy.json
 *.bst
 *.csv
 *.npz
+*.jsonl
 *.joblib
 tb_logs/
